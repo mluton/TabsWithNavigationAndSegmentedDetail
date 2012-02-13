@@ -1,5 +1,3 @@
-## Using a UISegmentedControl to Change Views
-
 Demonstration of an iOS tabbed view application where individual tabs can contain a navigation controller and table view. Furthermore, the detail view of the table has a segmented control in the navigation bar used to switch between different detail views. This is similar to (but not exactly the same as) Apple's "store" apps like iTunes, App Store and Apple Store.
 
 This should provide a decent starting point for anyone wanting to create a store or catalogue style app who want to stick to standard iOS UI elements and conventions.
