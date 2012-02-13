@@ -1,0 +1,366 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E3B3F0014E388C300EA3E13 /* SegmentViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3B3EFE14E388C300EA3E13 /* SegmentViewController1.m */; };
+		4E3B3F0114E388C300EA3E13 /* SegmentViewController1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E3B3EFF14E388C300EA3E13 /* SegmentViewController1.xib */; };
+		4E3B3F0514E3890E00EA3E13 /* SegmentViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3B3F0314E3890E00EA3E13 /* SegmentViewController2.m */; };
+		4E3B3F0614E3890E00EA3E13 /* SegmentViewController2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E3B3F0414E3890E00EA3E13 /* SegmentViewController2.xib */; };
+		4E3B3F0A14E38A1600EA3E13 /* NSArray+PerformSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3B3F0914E38A1600EA3E13 /* NSArray+PerformSelector.m */; };
+		4ED53ADC14E34BC900833CA7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ED53ADB14E34BC900833CA7 /* UIKit.framework */; };
+		4ED53ADE14E34BC900833CA7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ED53ADD14E34BC900833CA7 /* Foundation.framework */; };
+		4ED53AE014E34BC900833CA7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ED53ADF14E34BC900833CA7 /* CoreGraphics.framework */; };
+		4ED53AE614E34BC900833CA7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4ED53AE414E34BC900833CA7 /* InfoPlist.strings */; };
+		4ED53AE814E34BC900833CA7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED53AE714E34BC900833CA7 /* main.m */; };
+		4ED53AEC14E34BC900833CA7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED53AEB14E34BC900833CA7 /* AppDelegate.m */; };
+		4ED53AEF14E34BC900833CA7 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED53AEE14E34BC900833CA7 /* FirstViewController.m */; };
+		4ED53AF114E34BC900833CA7 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 4ED53AF014E34BC900833CA7 /* first.png */; };
+		4ED53AF314E34BC900833CA7 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4ED53AF214E34BC900833CA7 /* first@2x.png */; };
+		4ED53AF814E34BC900833CA7 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 4ED53AF714E34BC900833CA7 /* second.png */; };
+		4ED53AFA14E34BC900833CA7 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4ED53AF914E34BC900833CA7 /* second@2x.png */; };
+		4ED53AFD14E34BC900833CA7 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4ED53AFB14E34BC900833CA7 /* FirstViewController.xib */; };
+		4ED53B0D14E3533A00833CA7 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED53B0B14E3533A00833CA7 /* TableViewController.m */; };
+		4ED53B0E14E3533A00833CA7 /* TableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4ED53B0C14E3533A00833CA7 /* TableViewController.xib */; };
+		4ED53B1214E3547C00833CA7 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED53B1014E3547C00833CA7 /* DetailViewController.m */; };
+		4ED53B1314E3547C00833CA7 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4ED53B1114E3547C00833CA7 /* DetailViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4E3B3EFD14E388C300EA3E13 /* SegmentViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegmentViewController1.h; sourceTree = "<group>"; };
+		4E3B3EFE14E388C300EA3E13 /* SegmentViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SegmentViewController1.m; sourceTree = "<group>"; };
+		4E3B3EFF14E388C300EA3E13 /* SegmentViewController1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SegmentViewController1.xib; sourceTree = "<group>"; };
+		4E3B3F0214E3890E00EA3E13 /* SegmentViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegmentViewController2.h; sourceTree = "<group>"; };
+		4E3B3F0314E3890E00EA3E13 /* SegmentViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SegmentViewController2.m; sourceTree = "<group>"; };
+		4E3B3F0414E3890E00EA3E13 /* SegmentViewController2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SegmentViewController2.xib; sourceTree = "<group>"; };
+		4E3B3F0814E38A1600EA3E13 /* NSArray+PerformSelector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+PerformSelector.h"; sourceTree = "<group>"; };
+		4E3B3F0914E38A1600EA3E13 /* NSArray+PerformSelector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+PerformSelector.m"; sourceTree = "<group>"; };
+		4ED53AD714E34BC900833CA7 /* TabsWithNavigationAndSegmentedDetail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabsWithNavigationAndSegmentedDetail.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ED53ADB14E34BC900833CA7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4ED53ADD14E34BC900833CA7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4ED53ADF14E34BC900833CA7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4ED53AE314E34BC900833CA7 /* TabsWithNavigationAndSegmentedDetail-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TabsWithNavigationAndSegmentedDetail-Info.plist"; sourceTree = "<group>"; };
+		4ED53AE514E34BC900833CA7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4ED53AE714E34BC900833CA7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4ED53AE914E34BC900833CA7 /* TabsWithNavigationAndSegmentedDetail-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TabsWithNavigationAndSegmentedDetail-Prefix.pch"; sourceTree = "<group>"; };
+		4ED53AEA14E34BC900833CA7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4ED53AEB14E34BC900833CA7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4ED53AED14E34BC900833CA7 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		4ED53AEE14E34BC900833CA7 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		4ED53AF014E34BC900833CA7 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		4ED53AF214E34BC900833CA7 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		4ED53AF714E34BC900833CA7 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		4ED53AF914E34BC900833CA7 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		4ED53AFC14E34BC900833CA7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstViewController.xib; sourceTree = "<group>"; };
+		4ED53B0A14E3533A00833CA7 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		4ED53B0B14E3533A00833CA7 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		4ED53B0C14E3533A00833CA7 /* TableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewController.xib; sourceTree = "<group>"; };
+		4ED53B0F14E3547C00833CA7 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		4ED53B1014E3547C00833CA7 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		4ED53B1114E3547C00833CA7 /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4ED53AD414E34BC900833CA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ED53ADC14E34BC900833CA7 /* UIKit.framework in Frameworks */,
+				4ED53ADE14E34BC900833CA7 /* Foundation.framework in Frameworks */,
+				4ED53AE014E34BC900833CA7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E3B3EF714E3883D00EA3E13 /* Segments */ = {
+			isa = PBXGroup;
+			children = (
+				4E3B3EFD14E388C300EA3E13 /* SegmentViewController1.h */,
+				4E3B3EFE14E388C300EA3E13 /* SegmentViewController1.m */,
+				4E3B3EFF14E388C300EA3E13 /* SegmentViewController1.xib */,
+				4E3B3F0214E3890E00EA3E13 /* SegmentViewController2.h */,
+				4E3B3F0314E3890E00EA3E13 /* SegmentViewController2.m */,
+				4E3B3F0414E3890E00EA3E13 /* SegmentViewController2.xib */,
+			);
+			name = Segments;
+			sourceTree = "<group>";
+		};
+		4E3B3F0714E389E500EA3E13 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4E3B3F0814E38A1600EA3E13 /* NSArray+PerformSelector.h */,
+				4E3B3F0914E38A1600EA3E13 /* NSArray+PerformSelector.m */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		4E3B3F0B14E395DD00EA3E13 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4ED53AF014E34BC900833CA7 /* first.png */,
+				4ED53AF214E34BC900833CA7 /* first@2x.png */,
+				4ED53AF714E34BC900833CA7 /* second.png */,
+				4ED53AF914E34BC900833CA7 /* second@2x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		4ED53ACC14E34BC900833CA7 = {
+			isa = PBXGroup;
+			children = (
+				4ED53AE114E34BC900833CA7 /* TabsWithNavigationAndSegmentedDetail */,
+				4ED53ADA14E34BC900833CA7 /* Frameworks */,
+				4ED53AD814E34BC900833CA7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4ED53AD814E34BC900833CA7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4ED53AD714E34BC900833CA7 /* TabsWithNavigationAndSegmentedDetail.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4ED53ADA14E34BC900833CA7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4ED53ADB14E34BC900833CA7 /* UIKit.framework */,
+				4ED53ADD14E34BC900833CA7 /* Foundation.framework */,
+				4ED53ADF14E34BC900833CA7 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4ED53AE114E34BC900833CA7 /* TabsWithNavigationAndSegmentedDetail */ = {
+			isa = PBXGroup;
+			children = (
+				4E3B3F0714E389E500EA3E13 /* Extensions */,
+				4ED53AEA14E34BC900833CA7 /* AppDelegate.h */,
+				4ED53AEB14E34BC900833CA7 /* AppDelegate.m */,
+				4ED53AED14E34BC900833CA7 /* FirstViewController.h */,
+				4ED53AEE14E34BC900833CA7 /* FirstViewController.m */,
+				4ED53AFB14E34BC900833CA7 /* FirstViewController.xib */,
+				4ED53B0A14E3533A00833CA7 /* TableViewController.h */,
+				4ED53B0B14E3533A00833CA7 /* TableViewController.m */,
+				4ED53B0C14E3533A00833CA7 /* TableViewController.xib */,
+				4ED53B0F14E3547C00833CA7 /* DetailViewController.h */,
+				4ED53B1014E3547C00833CA7 /* DetailViewController.m */,
+				4ED53B1114E3547C00833CA7 /* DetailViewController.xib */,
+				4E3B3EF714E3883D00EA3E13 /* Segments */,
+				4E3B3F0B14E395DD00EA3E13 /* Resources */,
+				4ED53AE214E34BC900833CA7 /* Supporting Files */,
+			);
+			path = TabsWithNavigationAndSegmentedDetail;
+			sourceTree = "<group>";
+		};
+		4ED53AE214E34BC900833CA7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4ED53AE314E34BC900833CA7 /* TabsWithNavigationAndSegmentedDetail-Info.plist */,
+				4ED53AE414E34BC900833CA7 /* InfoPlist.strings */,
+				4ED53AE714E34BC900833CA7 /* main.m */,
+				4ED53AE914E34BC900833CA7 /* TabsWithNavigationAndSegmentedDetail-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4ED53AD614E34BC900833CA7 /* TabsWithNavigationAndSegmentedDetail */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4ED53B0314E34BC900833CA7 /* Build configuration list for PBXNativeTarget "TabsWithNavigationAndSegmentedDetail" */;
+			buildPhases = (
+				4ED53AD314E34BC900833CA7 /* Sources */,
+				4ED53AD414E34BC900833CA7 /* Frameworks */,
+				4ED53AD514E34BC900833CA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TabsWithNavigationAndSegmentedDetail;
+			productName = TabsWithNavigationAndSegmentedDetail;
+			productReference = 4ED53AD714E34BC900833CA7 /* TabsWithNavigationAndSegmentedDetail.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4ED53ACE14E34BC900833CA7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 4ED53AD114E34BC900833CA7 /* Build configuration list for PBXProject "TabsWithNavigationAndSegmentedDetail" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4ED53ACC14E34BC900833CA7;
+			productRefGroup = 4ED53AD814E34BC900833CA7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4ED53AD614E34BC900833CA7 /* TabsWithNavigationAndSegmentedDetail */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4ED53AD514E34BC900833CA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ED53AE614E34BC900833CA7 /* InfoPlist.strings in Resources */,
+				4ED53AF114E34BC900833CA7 /* first.png in Resources */,
+				4ED53AF314E34BC900833CA7 /* first@2x.png in Resources */,
+				4ED53AF814E34BC900833CA7 /* second.png in Resources */,
+				4ED53AFA14E34BC900833CA7 /* second@2x.png in Resources */,
+				4ED53AFD14E34BC900833CA7 /* FirstViewController.xib in Resources */,
+				4ED53B0E14E3533A00833CA7 /* TableViewController.xib in Resources */,
+				4ED53B1314E3547C00833CA7 /* DetailViewController.xib in Resources */,
+				4E3B3F0114E388C300EA3E13 /* SegmentViewController1.xib in Resources */,
+				4E3B3F0614E3890E00EA3E13 /* SegmentViewController2.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4ED53AD314E34BC900833CA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ED53AE814E34BC900833CA7 /* main.m in Sources */,
+				4ED53AEC14E34BC900833CA7 /* AppDelegate.m in Sources */,
+				4ED53AEF14E34BC900833CA7 /* FirstViewController.m in Sources */,
+				4ED53B0D14E3533A00833CA7 /* TableViewController.m in Sources */,
+				4ED53B1214E3547C00833CA7 /* DetailViewController.m in Sources */,
+				4E3B3F0014E388C300EA3E13 /* SegmentViewController1.m in Sources */,
+				4E3B3F0514E3890E00EA3E13 /* SegmentViewController2.m in Sources */,
+				4E3B3F0A14E38A1600EA3E13 /* NSArray+PerformSelector.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4ED53AE414E34BC900833CA7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4ED53AE514E34BC900833CA7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4ED53AFB14E34BC900833CA7 /* FirstViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4ED53AFC14E34BC900833CA7 /* en */,
+			);
+			name = FirstViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4ED53B0114E34BC900833CA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4ED53B0214E34BC900833CA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4ED53B0414E34BC900833CA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TabsWithNavigationAndSegmentedDetail/TabsWithNavigationAndSegmentedDetail-Prefix.pch";
+				INFOPLIST_FILE = "TabsWithNavigationAndSegmentedDetail/TabsWithNavigationAndSegmentedDetail-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4ED53B0514E34BC900833CA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TabsWithNavigationAndSegmentedDetail/TabsWithNavigationAndSegmentedDetail-Prefix.pch";
+				INFOPLIST_FILE = "TabsWithNavigationAndSegmentedDetail/TabsWithNavigationAndSegmentedDetail-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4ED53AD114E34BC900833CA7 /* Build configuration list for PBXProject "TabsWithNavigationAndSegmentedDetail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ED53B0114E34BC900833CA7 /* Debug */,
+				4ED53B0214E34BC900833CA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4ED53B0314E34BC900833CA7 /* Build configuration list for PBXNativeTarget "TabsWithNavigationAndSegmentedDetail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ED53B0414E34BC900833CA7 /* Debug */,
+				4ED53B0514E34BC900833CA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4ED53ACE14E34BC900833CA7 /* Project object */;
+}
